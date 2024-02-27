@@ -13,7 +13,7 @@ const Menu = () => {
                 <img src={menuItem.image} alt="" />
               </div>
               <h3>{menuItem.name} </h3>
-              <p>{menuItem.price} kr</p>
+              <p>{menuItem.price} £</p>
             </div>
           );
         })}
