@@ -321,7 +321,7 @@ menuItem:hover {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(90deg, #efac1a, #dc0909);
+  background : linear-gradient(90deg, #000000, #985252)
 }
 
 .aboutTop {
@@ -342,12 +342,13 @@ menuItem:hover {
 
 .aboutBottom p {
   width: 500px;
+  color: lightsalmon;
 }
 
 .about .aboutBottom h1 {
   font-weight: 400;
   font-size: 70px;
-  color: black;
+  color: lightgoldenrodyellow;
   display: flex;
   justify-content: center;
 }

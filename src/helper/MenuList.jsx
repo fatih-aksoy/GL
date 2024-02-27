@@ -1,39 +1,27 @@
-import Beef from "../assets/1beef.jpg";
-import Blackbean from "../assets/2blackbean.jpg";
-import Chicken from "../assets/3chicken.jpg";
-import Turkey from "../assets/4turkey.jpeg";
-import Veggie from "../assets/5veggie.jpg";
-import Cheese from "../assets/6cheese.jpg";
+import Royal from "../assets/1Royal mirage.jpg";
+import Fog from "../assets/2fog Scent Xpressio.jpg";
+import Munakh from "../assets/3Al Munakh.jpg";
+import Oil from "../assets/4perfume oil.jpg";
 
 export const MenuList = [
   {
-    name: "Beef Burger",
-    image: Beef,
-    price: 75,
+    name: "Royal Mirage",
+    image: Royal,
+    price: 7,
   },
   {
-    name: "BlackBean Burger",
-    image: Blackbean,
-    price: 70,
+    name: "Fog Scent Mirage",
+    image: Fog,
+    price: 7,
   },
   {
-    name: "Chicken Burger",
-    image: Chicken,
-    price: 65,
+    name: "Al Munakh",
+    image: Munakh,
+    price: 6,
   },
   {
-    name: "Turkey Burger",
-    image: Turkey,
-    price: 90,
-  },
-  {
-    name: "Veggie Burger",
-    image: Veggie,
-    price: 75,
-  },
-  {
-    name: "Cheese Burger",
-    image: Cheese,
-    price: 80,
+    name: "Perfume Oil",
+    image: Oil,
+    price: 9,
   },
 ];

@@ -1,12 +1,12 @@
 import React from "react";
-import BannerImage from "../assets/1beef.jpg";
+import aboutImage from "../assets/aboutImage.jpg";
 
 const About = () => {
   return (
     <div className="about">
       <div
         className="aboutTop"
-        style={{ backgroundImage: `url(${BannerImage})` }}
+        style={{ backgroundImage: `url(${aboutImage})` }}
       ></div>
       <div className="aboutBottom">
         <h1>About Us</h1>

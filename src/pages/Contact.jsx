@@ -1,12 +1,12 @@
 import React from "react";
-import BannerImage from "../assets/2blackbean.jpg";
+import contactImage from "../assets/2.png";
 
 const Contact = () => {
   return (
     <div className="contact">
       <div
         className="leftSide"
-        style={{ backgroundImage: `url(${BannerImage})` }}
+        style={{ backgroundImage: `url(${contactImage})` }}
       ></div>
       <div className="rightSide">
         <h1>Contact Us</h1>

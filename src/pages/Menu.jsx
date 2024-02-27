@@ -4,7 +4,7 @@ import { MenuList } from "../helper/MenuList";
 const Menu = () => {
   return (
     <div className="menu">
-      <h1 className="menuTitle">Our Menu</h1>
+      <h1 className="menuTitle">Products</h1>
       <div className="menuList">
         {MenuList.map((menuItem, key) => {
           return (
